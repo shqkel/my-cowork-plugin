@@ -1,0 +1,11 @@
+{
+  "name": "hello-cowork",
+  "version": "0.1.0",
+  "description": "Cowork에서 인사를 건네고 마켓플레이스 동작을 확인하는 예시 플러그인",
+  "author": {
+    "name": "동현",
+    "email": "shqkel1863@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": ["example", "starter", "greeting"]
+}
