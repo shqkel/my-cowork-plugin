@@ -9,15 +9,19 @@ hello-cowork/
 ├── .claude-plugin/
 │   └── plugin.json          # 플러그인 매니페스트 (이름·버전·설명)
 ├── skills/
-│   └── greeting/
-│       └── SKILL.md         # "안녕", "인사해줘" 등에 반응하는 인사 스킬
+│   ├── greeting/
+│   │   └── SKILL.md         # "안녕", "인사해줘" 등에 반응하는 인사 스킬
+│   └── economy-news-digest/
+│       ├── SKILL.md         # 경제뉴스 호재/악재 데일리 다이제스트 스킬
+│       └── scripts/
+│           └── rss_to_report.py
 └── README.md
 ```
 
-## 동작
+## 포함 스킬
 
-이 플러그인을 설치한 뒤 Claude에게 "안녕" 또는 "플러그인 테스트"라고 말하면,
-`greeting` 스킬이 호출되어 인사와 함께 마켓플레이스가 정상 동작 중임을 알려 준다.
+- `greeting` — "안녕", "플러그인 테스트"에 반응해 인사하고 마켓플레이스 동작을 확인한다.
+- `economy-news-digest` — 경제뉴스 RSS를 호재/악재/중립으로 분류해 CSV·마크다운 보고서를 생성한다. ("오늘 경제뉴스 호재 악재 분석해줘" 등)
 
 ## 이 플러그인을 복제해 새 플러그인 만들기
 

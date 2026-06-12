@@ -1,7 +1,7 @@
 {
   "name": "hello-cowork",
   "version": "0.1.0",
-  "description": "Cowork에서 인사를 건네고 마켓플레이스 동작을 확인하는 예시 플러그인",
+  "description": "Cowork 예시 플러그인 — 인사 스킬과 경제뉴스 호재/악재 데일리 다이제스트 스킬을 포함한다",
   "author": {
     "name": "동현",
     "email": "shqkel1863@gmail.com"

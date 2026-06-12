@@ -12,7 +12,7 @@
     {
       "name": "hello-cowork",
       "source": "./plugins/hello-cowork",
-      "description": "마켓플레이스 구조 검증용 예시 플러그인 — 인사 스킬 하나를 포함한다."
+      "description": "마켓플레이스 검증용 예시 플러그인 — 인사 스킬과 경제뉴스 다이제스트 스킬을 포함한다."
     }
   ]
 }

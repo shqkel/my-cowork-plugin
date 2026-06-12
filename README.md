@@ -70,3 +70,4 @@ my-cowork-plugin/
 
 - 초기 저장소 세팅 완료 (README, .gitignore)
 - 마켓플레이스 구조 추가 (marketplace.json + 예시 플러그인 hello-cowork)
+- hello-cowork에 economy-news-digest 스킬 추가 (경제뉴스 호재/악재 데일리 다이제스트)
