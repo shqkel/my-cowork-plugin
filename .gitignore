@@ -1,0 +1,39 @@
+# --- macOS 시스템 파일 ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# --- 에디터/IDE 설정 ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- 환경변수 / 비밀값 (절대 올리면 안 됨) ---
+.env
+.env.*
+*.key
+*.pem
+secrets.*
+
+# --- 로그 / 임시 파일 ---
+*.log
+tmp/
+temp/
+*.tmp
+
+# --- Node.js ---
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- 빌드 산출물 ---
+dist/
+build/
